@@ -1,5 +1,5 @@
 {
-  "name": "pwet",
+  "name": "idom-util",
   "version": "1.0.0",
   "description": "Helper functions for incremental-dom",
   "main": "src/index.js",
@@ -11,6 +11,7 @@
   "license": "GPL-3.0",
   "keywords": [
     "helper",
+    "function",
     "incremental",
     "dom",
     "incremental-dom"
