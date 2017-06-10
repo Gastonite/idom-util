@@ -1,0 +1,21 @@
+{
+  "name": "pwet",
+  "version": "1.0.0",
+  "description": "Helper functions for incremental-dom",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gastonite/idom-util"
+  },
+  "author": "Clément Pasquier <clement@n00sphere.net>",
+  "license": "GPL-3.0",
+  "keywords": [
+    "helper",
+    "incremental",
+    "dom",
+    "incremental-dom"
+  ],
+  "dependencies": {
+    "incremental-dom": "^0.5.1"
+  }
+}
