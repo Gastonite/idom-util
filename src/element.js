@@ -6,5 +6,5 @@ export default (tagName, ...args) => {
 
   elementOpen(tagName, ...args);
   typeof renderContent === 'function' && renderContent();
-  elementClose(tagName);
+  return elementClose(tagName);
 };
