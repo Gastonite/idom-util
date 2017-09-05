@@ -2,9 +2,11 @@ import { elementOpen, elementClose } from 'incremental-dom';
 
 export default (tagName, ...args) => {
 
-  const renderContent = args.pop();
+  let renderContent;
+  if (args.length > 0 && typeof args[args.length - 1] === 'function')
+    renderContent = args.pop();
 
   elementOpen(tagName, ...args);
-  typeof renderContent === 'function' && renderContent();
+  renderContent && renderContent();
   return elementClose(tagName);
 };
