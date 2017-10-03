@@ -17,3 +17,8 @@ export renderHeader from './header';
 export renderFooter from './footer';
 export renderAnchor from './anchor';
 export * from 'incremental-dom';
+export const transformObjectToArray = (object) =>
+  Object.keys(object).reduce((before, key) => before.concat([key, object[key]]), []);
+
+
+
