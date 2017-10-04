@@ -1,6 +1,6 @@
 {
   "name": "idom-util",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helper functions for incremental-dom",
   "main": "src/index.js",
   "repository": {
